@@ -315,6 +315,19 @@ blockquote
 	margin-bottom: 5%;
 }
 
+.contact-form:before {
+    content: '';
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-color: rgba(0,0,0,0.3);
+    z-index: -1;
+    border-radius: 10px;
+}
+
+
 .contact-form
 {	
 	padding-bottom: 5%;
@@ -348,6 +361,8 @@ blockquote
 {
 	color : #20B2AA! important;
 }
+
+
 
 /*------------About-------------*/
 
