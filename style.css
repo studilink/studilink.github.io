@@ -1,0 +1,360 @@
+/*------------Navigation Bar-------------*/
+
+#nav-bar
+{
+	position: sticky;
+	top: 0;
+	z-index : 10;
+	background-color: #FFFFFF;
+	font-family: 'Source Sans Pro';
+	font-weight: 600px;
+	font-size: 300%;
+}
+
+#navbarNav
+
+{
+	color: #FFF;
+}
+
+.navbar-brand
+
+{
+	color : #008080! important;
+	font-family: 'Lobster';
+	font-weight: 600px;
+	font-size: 40px;
+	margin-left: 5%;
+}
+
+#navbar-nav ml-auto li a
+
+{
+	float: left;
+	text-align:right;
+}
+
+#nav-bar ul 
+{
+	margin-right: 5%;
+}
+
+#nav-bar ul li a:hover
+{
+	color : #20B2AA! important;
+}
+
+
+.navbar-toggler
+{
+	border: none! important;
+	color : #555;
+}
+
+.nav-link
+{
+	color: #555! important;
+	font-weight: 600;
+	font-size: 16px;
+}
+
+/*------------About-------------*/ 
+
+#about
+
+{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	color: #555
+}
+
+#about btn
+
+{
+	margin-top: 20px;
+	margin-bottom: 30px;
+
+}
+
+.about-content
+
+{
+	padding-top: 20px;
+}
+
+.btn btn-primary btn-lg
+
+{
+	background-color: #20B2AA;
+}
+
+/*------------Services-------------*/
+
+#services
+
+{
+	background-color: #008080;
+	background-size: cover;
+	background-position: center;
+	color: #FFFFFF !important;
+	background-attachment: fixed;
+	padding-top: 50px;
+	padding-bottom : 50px;
+	bottom: 0;
+}
+
+h5
+{
+	color : #FFDAB9 !important;
+}
+
+
+/*------------Team members-------------*/
+#team
+
+{
+	padding-top: 50px;
+	padding-bottom: 50px;
+
+}
+
+h1
+{
+	text-align:center;
+	color: #555 !important;
+	padding-bottom: 10px;
+}
+
+h1::after
+{
+	content: '';
+	background: #008080;
+	display: block;
+	height: 3px;
+	width: 170px;
+	margin: 20px auto 5px;
+}
+
+.profile-pic
+{
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.profile-pic .img-box
+{
+	opacity: 2;
+	display: block;
+	position: relative:;
+}
+
+.profile-pic .img-box img
+{
+	filter: grayscale(1);
+	size: 30%;
+}
+
+.profile-pic .img-box img:hover
+{
+	filter: grayscale(0);
+	cursor: pointer;
+}
+
+.profile-pic h2
+{
+	font-size: 22px;
+	font-weight: bold;
+	margin-top: 15px;
+	color : #008080 !important;
+}
+
+.profile-pic h3
+{
+	font-size: 15px;
+	font-weight: bold;
+	margin-top: 15px;
+	color : #F4A460 !important;
+}
+
+#team .fa
+{
+	height: 25px;
+	width:25px;
+	color:#008080 !important;
+	background: #fff;
+	padding: 4px;
+	border-radius: 50%;
+}
+
+.img-box
+{
+	padding-top:5%;
+	width: 300px;
+	margin: auto;
+}
+.img-box ul 
+{
+	padding: 15px 0;
+	position: absolute;
+	z-index: 2;
+	bottom: 30%;
+	left: 50%;
+	transform: translateX(-50%);
+	opacity: 0;
+}
+
+.img-box ul li
+{
+	padding: 5px;
+	display: inline-block;
+}
+.img-box:hover ul 
+
+{
+	opacity: 1;
+}
+
+.img-box ul, .img-box ul li
+{
+	transition: 0.5s;
+}
+
+
+/*------------Testimonials-------------*/
+
+#testimonials
+
+{ 
+	padding-top: 50px;
+	padding-bottom:50px;
+}
+
+#testimonials .row
+
+{
+	margin-top: 30px;
+}
+
+.col-md-4
+{
+	margin: 40px auto;
+}
+.profile 
+
+{
+	padding: 10% 10% 10% ;
+	background-color : #efefef;
+}
+
+.profile img
+{
+	top: -30%;
+	position: absolute;
+	left: calc(50%-60px);
+	border: 10px solid #fff;
+}
+
+.profile h3
+{
+	font-size: 20px;
+	margin-top: 15px;
+	color: #008080;
+}
+
+#testimonials span 
+{
+	font-size: 12px;
+	color: #333;
+}
+
+blockquote
+
+{
+	font-size: 16px;
+	line-height : 30px;
+}
+
+.profile:hover
+{
+	box-shadow: 0 0 15px 5px rgba(0,0,0,0.2);
+	cursor: pointer;
+	transition: 0.5s;
+}
+
+
+/*------------contacts-------------*/
+
+#contact
+{
+	background: #fff;
+	padding-top: 100px;
+	padding-bottom: 40px;
+	padding-left: 5%;
+	padding-right: 5%;
+	color: #777;
+	margin-top: 7%;
+	margin-bottom: 7%;
+}
+
+#contact2
+
+{
+	background: #fff;
+	padding-top: 100px;
+	padding-bottom: 40px;
+	padding-left: 5%;
+	padding-right: 5%;
+	color: #777;
+	margin-top: 3%;
+	margin-bottom: 5%;
+}
+
+.contact-form
+{	
+	padding-bottom: 5%;
+	padding-top: 5%;
+	width: 400px;
+	text-align: center;
+	margin: auto;
+}
+
+
+.contact-form .btn
+
+{
+	background-color: #008080;
+	color: #fff;
+}
+.contact-form .btn:hover
+
+{
+	color: #fff;
+}
+
+#contact a
+
+{
+	color : #008080 !important;
+	font-weight: bold;
+}
+
+#contact a:hover
+{
+	color : #20B2AA! important;
+}
+
+/*------------About-------------*/
+
+.jumbotron .btn
+{
+	background-color: #008080;
+	color: #fff;
+}
+
+.jumbotron .btn:hover
+
+{
+	color: #fff;
+}
+
+/*------------About-------------*/

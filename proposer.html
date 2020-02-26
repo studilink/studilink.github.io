@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>StudiLink</title>
+		<meta charset="utf-8">		
+		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">	
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">	
+
+		<link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+
+		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+		<script src="javascript.js"></script>
+
+		
+
+	</head>
+
+	<body>
+		<!---NavigationBar---->
+		<section id="nav-bar">
+			<nav class="navbar navbar-expand-lg navbar-light bg-white">
+  				<a class="navbar-brand" href="index.html">StudiLink</a>
+  					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    					<span class="navbar-toggler-icon"></span>
+ 					 </button>
+		  <div class="collapse navbar-collapse" id="navbarNav">
+		    <ul class="navbar-nav ml-auto">
+		      <li class="nav-item active">
+		        <a class="nav-link" href="index.html">Accueil <span class="sr-only">(current)</span></a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="proposer.html"><i class="fa fa-plus-circle" style="margin-right: 5px;"></i>Proposer un cours</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="rechercher.html"><i class="fa fa-search" style="margin-right: 5px;"></i>Rechercher un cours</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="profil.html"><i class="fa fa-user"></i></a>
+		      </li>
+		    </ul>
+		  </div>
+		</nav>
+		</section>
+		<!---NavigationBar---->
+
+
+
+<section id="contact2">
+	<div class="container">
+		<h1>Quel cours vous voulez proposer?</h1>
+				<form class="contact-form">
+					<div class="form-group">
+						<input type="text" class="form-control" placeholder="Nom du cours">
+					</div>
+					<h6>Quel jour?</h6>
+					<div class="form-group">
+						<input type="date" class="form-control">
+					</div>
+					<h6>Sur quel campus?</h6>
+					<select class="form-control" id="campus">
+					      <option>Campus de la Victoire</option>
+					      <option>Campus de Talence</option>
+					      <option>Montaigne Montesquieu</option>
+					</select>
+					<br/>
+					<h6>Quelle salle?</h6>
+					<select class="form-control" id="salle">
+					      <option>Salle 1</option>
+					      <option>Salle 2</option>
+					      <option>Salle 3</option>
+					</select>
+					<br/>
+					<h6>Quel créneau?</h6>
+					<select class="form-control" id="creneau">
+					      <option>08H00 - 09H00</option>
+					      <option>09H00 - 10H00</option>
+					      <option>10H00 - 11H00</option>
+					      <option>11H00 - 12H00</option>
+					      <option>12H00 - 13H00</option>
+					</select>
+					<br/>
+					<button type="submit" class="btn">Publier</button>
+				</form>
+	</div>
+</section>
+<!----Services----->
+
+<section id="services">
+			<div class="container">
+				<div class="row services">
+					<div class="col-md-4 text-center">
+						<h5>Qui sommes nous ?</h5>
+						<p>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression.</p>
+					</div>
+					<div class="col-md-4 text-center">
+						<h5>Nos valeurs</h5>
+						<p>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression.</p>
+					</div>
+					<div class="col-md-4 text-center">
+						<h5>Nous contacter</h5>
+						<p>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression.</p>
+					</div>
+				</div>
+				<div class="text-center">
+						<div class="icon">
+							<div class="col -md-4">
+								<br/>
+								<a href="#" style="color: #FFFFFF;"><i class="fa fa-facebook fa-2x" style="margin-right: 3%;"></i></a>
+								<a href="#" style="color: #FFFFFF;" >
+								<i class="fa fa-twitter fa-2x"style="margin-right: 3%;"></i></a>
+								<a href="#" style="color: #FFFFFF;">
+								<i class="fa fa-instagram fa-2x" style="margin-right: 3%;"></i></a>
+								<a href="#" style="color: #FFFFFF;">
+								<i class="fa fa-linkedin fa-2x" style="margin-right: 3%;"></i></a>
+							</div>
+						</div>
+					</div>
+			</div>
+		</section>
+		<!----Services----->
+
+
+
+	</body>
+</html>
