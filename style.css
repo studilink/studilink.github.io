@@ -1,3 +1,9 @@
+.container-fluid {
+margin: 0;
+padding: 0;
+}
+
+
 /*------------Navigation Bar-------------*/
 
 #nav-bar
@@ -9,6 +15,7 @@
 	font-family: 'Source Sans Pro';
 	font-weight: 600px;
 	font-size: 300%;
+
 }
 
 #navbarNav
@@ -65,7 +72,8 @@
 {
 	padding-top: 50px;
 	padding-bottom: 50px;
-	color: #555
+	color: #555;
+
 }
 
 #about btn
@@ -289,11 +297,11 @@ blockquote
 	background: #fff;
 	padding-top: 100px;
 	padding-bottom: 40px;
-	padding-left: 5%;
-	padding-right: 5%;
+	padding-left: 20px;
+	padding-right: 20px;
 	color: #777;
-	margin-top: 7%;
-	margin-bottom: 7%;
+	margin:auto;
+
 }
 
 #contact2
@@ -358,3 +366,15 @@ blockquote
 }
 
 /*------------About-------------*/
+
+.make-xs-column(@columns; @gutter: @grid-gutter-width) {
+  position: relative;
+  min-height: 1px;
+  padding-left:  (@gutter / 2);
+  padding-right: (@gutter / 2);
+
+  @media (min-width: @grid-float-breakpoint) {
+    float: left;
+    width: percentage((@columns / @grid-columns));
+  }
+}
