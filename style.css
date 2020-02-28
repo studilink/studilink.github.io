@@ -303,6 +303,7 @@ blockquote
 
 }
 
+
 #contact2
 
 {
@@ -315,6 +316,17 @@ blockquote
 	
 }
 
+#contact3
+
+{
+	background: #fff;
+	padding-top: 100px;
+	padding-bottom: 40px;
+	color: #777;
+	margin-top: 3%;
+	margin-bottom: 5%;
+	
+}
 
 .contact-form
 {	
@@ -350,6 +362,11 @@ blockquote
 	color : #20B2AA! important;
 }
 
+#contact3 a
+
+{
+	color : #FFFFFF !important;
+}
 
 
 /*------------About-------------*/
@@ -368,3 +385,37 @@ blockquote
 
 /*------------About-------------*/
 
+/*------------Page-------------*/
+#search
+{
+	background: #fff;
+	padding-top: 100px;
+	padding-bottom: 40px;
+	color: #777;
+	margin-top: 3%;
+	margin-bottom: 5%;
+
+}
+
+.card .btn
+
+{
+	background-color: #008080;
+	color: #fff;
+}
+
+.card:hover
+{
+	box-shadow: 0 0 15px 5px rgba(0,0,0,0.2);
+	cursor: pointer;
+	transition: 0.5s;
+}
+
+/*------------Page-------------*/
+
+/*------------Star rating-------------*/
+
+.checked {
+  color: #008080;
+}
+/*------------Star rating-------------*/
