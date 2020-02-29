@@ -251,7 +251,7 @@ h1::after
 
 {
 	padding: 10% 10% 10% ;
-	background-color : #efefef;
+	background-color: #F5F5F5;
 }
 
 .profile img
@@ -371,6 +371,11 @@ blockquote
 
 /*------------About-------------*/
 
+#about .jumbotron 
+
+{
+	background-color: #F5F5F5;
+}
 .jumbotron .btn
 {
 	background-color: #008080;

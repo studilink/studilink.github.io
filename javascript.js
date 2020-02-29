@@ -1,3 +1,5 @@
+/*------------Rating-------------*/
+
 var $star_rating = $('.star-rating .fa');
 
 var SetRatingStar = function() {
@@ -19,3 +21,16 @@ SetRatingStar();
 $(document).ready(function() {
 
 });
+
+
+/*------------Recherche-------------*/
+
+var recherche = document.getElementById("recherche");
+
+form.addEventListener("submit", myScript {
+  // Chaque fois que l'utilisateur tente d'envoyer les données
+  if (recherche=="maths") {
+    
+    document.location.href="profil.html"
+  }
+};
