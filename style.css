@@ -275,11 +275,20 @@ h1::after
 	color: #333;
 }
 
-blockquote
+.profile blockquote
 
 {
 	font-size: 16px;
 	line-height : 30px;
+	quotes: "«\00A0" "\00A0»";
+	margin-top: 3%;
+}
+
+.profile blockquote::before {
+    content: open-quote;
+}
+.profile blockquote::after {
+    content: close-quote;
 }
 
 .profile:hover
